@@ -105,3 +105,4 @@ const styles = StyleSheet.create({
 });
 
 export default App; // Exporta o componente principal para ser usado no aplicativo
+ 
