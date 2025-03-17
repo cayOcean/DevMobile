@@ -5,6 +5,7 @@ class MeuComponente extends Component {
   constructor(props) {
     super(props);
     this.state = { mensagem: 'Olá!', contador: 0, exibirComponente: true };
+    console.log('Cayque Lima dos Santos');
     console.log('constructor: Componente montado!');
   }
 
@@ -21,7 +22,7 @@ class MeuComponente extends Component {
   }
 
   alteraMensagem = () => {
-    this.setState({ mensagem: 'Nova mensagem!' });
+    this.setState({ mensagem: 'Cayque Lima dos Santos' });
   };
 
   incrementarContador = () => {
