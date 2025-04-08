@@ -9,7 +9,7 @@ export default function HomeScreen({ navigation }) {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    if (username === 'admin' && password === '1234') {
+    if (username === 'admin' && password === 'admin') {
       Alert.alert('Login bem-sucedido', 'Você está logado!');
       navigation.navigate('Stock');
     } else {
