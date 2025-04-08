@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, Alert } from 'react-native';
-import styles from '../styles'; // Certifique-se de que o caminho está correto
+import styles from '../styles'; 
 
 export default function EditStockScreen({ route, navigation }) {
   const { item, updateStock } = route.params;
@@ -21,7 +21,7 @@ export default function EditStockScreen({ route, navigation }) {
   return (
     <View style={{
       flex: 1,
-      backgroundColor: '#EDE6DA', // cor de fundo alterada aqui
+      backgroundColor: '#EDE6DA', 
       padding: 20,
       justifyContent: 'flex-start',
     }}>

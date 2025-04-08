@@ -1,4 +1,4 @@
-// AddStockScreen.js
+// Cayque Lima dos Santos
 import React, { useState } from 'react';
 import {
   View,
