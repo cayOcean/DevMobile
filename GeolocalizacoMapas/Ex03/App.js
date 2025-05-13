@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StatusBar } from "react-native";
 import MapView, { Marker } from "react-native-maps";
-import styles from "./styles";
+import styles from "./Styles";
 
 StatusBar.setBarStyle("dark-content");
 
